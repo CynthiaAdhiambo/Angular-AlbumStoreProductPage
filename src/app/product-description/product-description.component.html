@@ -3,7 +3,7 @@
     <div class="col-sm-2">
       <img
         *ngIf="albumInfo"
-        [src]="albumInfo?.album.coverImage"
+        src="{{ albumInfo?.album.coverImage }}"
         alt="product image"
       />
     </div>
